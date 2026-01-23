@@ -16,7 +16,7 @@
       "destination": "critm:target",
       "decoration": "red_x",
       "zoom": 1,
-      "search_radius": 1096,
+      "search_radius": 1,
       "skip_existing_chunks": false,
       "conditions": []
     }
