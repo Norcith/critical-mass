@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:exploration_map",
+      "destination": "critm:target",
+      "decoration": "red_x",
+      "zoom": 1,
+      "search_radius": 1096,
+      "skip_existing_chunks": false,
+      "conditions": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 12345678,
+        "separation": 8,
+        "spacing": 34
+    },
+    "structures": [
+        {
+            "structure": "critm:target",
+            "weight": 1
+        }
+    ]
+}
