@@ -19,40 +19,11 @@
       "minecraft:rarity": "uncommon",
       "minecraft:item_model": "critm:missile",
       "minecraft:entity_data": {
-        "id": "minecraft:item_display",
+        "id": "minecraft:marker",
         "Tags": [
-          "critm.missile_item"
-        ],
-        "transformation": {
-          "translation": [
-            0,
-            1,
-            0
-          ],
-          "left_rotation": [
-            1,
-            0,
-            0,
-            0
-          ],
-          "right_rotation": [
-            1,
-            0,
-            0,
-            0
-          ],
-          "scale": [
-            0,
-            2,
-            0
-          ]
-        },
-        "item": {
-          "id": "minecraft:stone",
-          "components": {
-            "minecraft:item_model": "critm:missile"
-          }
-        }
+          "critm.missile_t",
+          "critm.temp"
+        ]
       }
     }
   }
