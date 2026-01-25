@@ -1,7 +1,11 @@
-# critical-mass
-A minecraft datapck project letting create your own missile ! Still in its early phases.
+# Critical Mass
+A minecraft datapack project letting create your own missile ! Still in its early phases.
 
 # To-Do
-
-🟠 Basic trajectory calculaions
-🔴 Allow for traveling in unloaded chunks
+- 🟢 Targetting system
+- 🟢 Crafting recipes
+- 🟠 Missile launching
+- 🔴 Missile explosion
+## Textures
+- 🔴 Coordinator
+- 🔴 Missile
