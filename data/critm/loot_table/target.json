@@ -15,10 +15,17 @@
       "function": "minecraft:exploration_map",
       "destination": "critm:target",
       "decoration": "red_x",
-      "zoom": 1,
-      "search_radius": 1,
-      "skip_existing_chunks": false,
-      "conditions": []
-    }
+      "zoom": 3,
+      "search_radius": 8,
+      "skip_existing_chunks": false
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "item_name": "Coordinator",
+        "item_model": "critm:coordinator",
+        "custom_data": {"coordinator":"set"}
+      }
+    } 
   ]
 }

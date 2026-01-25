@@ -1,1 +1,0 @@
-$execute positioned $(x) ~ $(z) run loot give @s loot critm:target

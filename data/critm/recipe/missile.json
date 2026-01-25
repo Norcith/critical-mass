@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "TTT",
+    "GEG"
+  ],
+  "key": {
+    "B": "minecraft:iron_block",
+    "T": "minecraft:tnt",
+    "G": "minecraft:gunpowder",
+    "E": "minecraft:ender_eye"
+  },
+  "result": {
+    "id": "minecraft:allay_spawn_egg",
+    "components": {
+      "minecraft:item_name": "Missile",
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_model": "critm:missile",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_display",
+        "Tags": [
+          "critm.missile_item"
+        ],
+        "transformation": {
+          "translation": [
+            0,
+            1,
+            0
+          ],
+          "left_rotation": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "right_rotation": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0,
+            2,
+            0
+          ]
+        },
+        "item": {
+          "id": "minecraft:stone",
+          "components": {
+            "minecraft:item_model": "critm:missile"
+          }
+        }
+      }
+    }
+  }
+}

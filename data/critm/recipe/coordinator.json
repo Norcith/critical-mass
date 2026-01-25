@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " A ",
+        "SCS"
+    ],
+    "key": {
+        "C": "minecraft:map",
+        "S": "minecraft:copper_nugget",
+        "A": "minecraft:amethyst_shard"
+    },
+    "result": {
+        "id": "minecraft:clock",
+        "components": {
+        "minecraft:item_name": "Coordinator",
+        "minecraft:item_model": "critm:coordinator",
+        "minecraft:consumable": {
+            "consume_seconds": 1000000000,
+            "animation": "none",
+            "sound": "minecraft:item.spyglass.use",
+            "has_consume_particles": false
+            },
+        "minecraft:custom_data": {"coordinator":"empty"},
+        "max_stack_size": 1
+        }, 
+        "count": 1
+    }
+  }
