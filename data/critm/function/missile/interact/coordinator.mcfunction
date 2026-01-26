@@ -1,0 +1,4 @@
+execute as @n[nbt={interaction:{}},distance=..8] as @n[type=item_display] store result score @s critm.target.x run data get entity @p[advancements={critm:missile_interact=true}] SelectedItem.components."minecraft:custom_data".target[0]
+execute as @n[nbt={interaction:{}},distance=..8] as @n[type=item_display] store result score @s critm.target.z run data get entity @p[advancements={critm:missile_interact=true}] SelectedItem.components."minecraft:custom_data".target[1]
+title @s actionbar ["Target set to ",{italic:true,text:"x:"},{italic:true,"entity":"@s" ,"nbt":"SelectedItem.components.\"minecraft:custom_data\".target[0]",color:"green"},{italic:true,text:", z:"},{italic:true,"entity":"@s","nbt":"SelectedItem.components.\"minecraft:custom_data\".target[1]",color:"green"}]
+item replace entity @s weapon.mainhand with minecraft:air
