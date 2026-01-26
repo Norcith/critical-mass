@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "critm:use/coordinator"
+    "function": "critm:coordinator/use"
   }
 }
